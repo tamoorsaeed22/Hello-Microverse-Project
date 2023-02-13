@@ -1,9 +1,8 @@
-# Hello-Microverse-Project
 <a name="readme-top"></a>
 
 <!--
 HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+
 
 
 REQUIRED SECTIONS:
@@ -11,7 +10,7 @@ REQUIRED SECTIONS:
 - About the Project
   - Built With
   - Live Demo
-  -Getting started
+- Getting Started
 - Authors
 - Future Features
 - Contributing
@@ -22,19 +21,26 @@ REQUIRED SECTIONS:
 OPTIONAL SECTIONS:
 - FAQ
 
-After you're finished please remove all the comments and instructions!
--->
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -48,56 +54,156 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Hello Microverse Project] <a name="about-project"></a>
 
 
-In this project, i Have set up a "Hello Microverse Project" repository. No complex coding in this project.I will be using tools in all Microverse projects and most likely in future job as well, so it is important to know them!
+
+**[Hello Microverse Project]** In this project, i Have set up a "Hello Microverse Project" repository. No complex coding in this project.I will be using tools in all Microverse projects and most likely in future job as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- **[HTML]**
-- **[CSS]**
-- **[Git&Github]**
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Git&Github</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-N/A
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+N/A
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> how a new developer could make use of your project.
+
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/tamoorsaeed22/Hello-Microverse-Project
-  
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:tamoorsaeed22/Hello-Microverse-Project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/tamoorsaeed22)
-- Twitter: [@twitterhandle](https://twitter.com/tamoorsaeed9)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tamoor-saeed-58912a233/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[LOCAL HOST]**
+- [ ] **[Local Host]**
 - [ ] **[Web browser access]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,6 +232,8 @@ Most of us are pretty good at judging whether a project is relevant for us. We m
 
 I would like to thank to my coding partners who helped me in this project and making it possible for me to built this project.
 
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -149,6 +257,26 @@ Tell us a bit about the latest project you worked on. Was it completed successfu
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+MIT License
+
+Copyright (c) 2022 Tamoor Saeed
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
